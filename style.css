@@ -1,0 +1,125 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+	font-family: sans-serif;
+	max-width: 600px;
+	margin: auto;
+	padding: 1rem;
+	text-align: center;
+}
+
+.nadpis {
+	font-size: 3rem;
+}
+
+.foto-hrace {
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	border-radius: 0.5rem;
+}
+
+.hraci {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+
+.profil-hrace {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.profil-hrace h2, .profil-hrace p {
+	margin: 0;
+}
+
+.popis-hrace {
+	padding: 0.5rem;
+	text-align: left;
+}
+
+.popis-hrace2 {
+	text-align: right;
+}
+
+.druhy-hrac {
+	order: 2;
+}
+
+.sachovnice {
+	background-image: url(obrazky/sachovnice.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 0.7rem solid burlywood;
+	border-radius: 0.25rem;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 1fr);
+}
+
+.sachovnice > img:nth-child(1) {
+	grid-row: 2;
+	grid-column: 1;
+}
+
+.sachovnice > img:nth-child(2) {
+	grid-row: 3;
+	grid-column: 3;
+}
+
+.sachovnice > img:nth-child(3) {
+	grid-row: 4;
+	grid-column: 8;
+}
+
+.sachovnice > img:nth-child(4) {
+	grid-row: 4;
+	grid-column: 4;
+}
+
+.sachovnice > img:nth-child(5) {
+	grid-row: 1;
+	grid-column: 5;
+}
+
+.sachovnice > img:nth-child(6) {
+	grid-row: 5;
+	grid-column: 2;
+}
+
+.sachovnice > img:nth-child(7) {
+	grid-row: 8;
+	grid-column: 3;
+}
+
+.sachovnice > img:nth-child(8) {
+	grid-row: 6;
+	grid-column: 6;
+}
+
+.sachovnice > img:nth-child(9) {
+	grid-row: 8;
+	grid-column: 6;
+}
+
+.vysledek {
+	font-size: 1.5rem;
+}
+
+.button {
+	background-color: rgb(73, 128, 247);
+	color: white;
+	border: 1px solid rgb(82, 82, 82);
+	border-radius: 0.25rem;
+	padding: 0.5rem 2rem;
+	transition-duration: 0.2s;
+}
+
+.button:hover {
+	background-color: darkgrey;
+}

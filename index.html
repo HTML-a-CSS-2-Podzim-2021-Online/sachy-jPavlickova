@@ -6,10 +6,51 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Šachy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	<h1>Šachy</h1>
+	<header>
+		<h1 class="nadpis">Šachy</h1>
+	</header>
+
+	<main>
+		<div class="hraci">
+			<div class="profil-hrace">
+				<img src="obrazky/hraci/honza.jpg" class="foto-hrace" alt="hrac1">
+				<div class="popis-hrace">
+					<h2>Honza</h2>
+					<p>bílý hráč</p>
+				</div>
+			</div>
+
+			<div class="profil-hrace">
+				<img src="obrazky/hraci/adela.jpg" class="foto-hrace druhy-hrac" alt="hrac2">
+				<div class="popis-hrace popis-hrace2">
+					<h2>Adéla</h2>
+					<p>černý hráč</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="sachovnice">
+			<img src="obrazky/figurky/pesec-cerna.svg" width="65" height="65" alt="Pěšec černý">
+			<img src="obrazky/figurky/pesec-cerna.svg" width="65" height="65" alt="Pěšec černý">
+			<img src="obrazky/figurky/pesec-cerna.svg" width="65" height="65" alt="Pěšec černý">
+			<img src="obrazky/figurky/pesec-bila.svg" width="65" height="65" alt="Pěšec bílá">
+			<img src="obrazky/figurky/strelec-cerna.svg" width="65" height="65" alt="Střelec černá">
+			<img src="obrazky/figurky/kun-bila.svg" width="65" height="65" alt="Kůň bílá">
+			<img src="obrazky/figurky/vez-cerna.svg" width="65" height="65" alt="Věž černá">
+			<img src="obrazky/figurky/kral-cerna.svg" width="65" height="65" alt="Král černá">
+			<img src="obrazky/figurky/kral-bila.svg" width="65" height="65" alt="Král bílá">
+		</div>
+
+		<div class="zaver">
+			<p class="vysledek">Vyhrál černý!</p>
+			<button type="button" class="button">Hrát znovu</button>
+		</div>
+	</main>
+
 </body>
 
 </html>
