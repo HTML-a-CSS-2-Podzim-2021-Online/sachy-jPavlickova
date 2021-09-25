@@ -7,6 +7,7 @@ body {
 	margin: auto;
 	padding: 1rem;
 	text-align: center;
+	min-width: 360px;
 }
 
 .nadpis {
@@ -55,11 +56,17 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	border: 0.7rem solid burlywood;
+	border: 0.5rem solid burlywood;
 	border-radius: 0.25rem;
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(8, 1fr);
+	aspect-ratio: 1/1;
+}
+
+.sachovnice img {
+	width: 100%;
+	height: auto;
 }
 
 .sachovnice > img:nth-child(1) {
